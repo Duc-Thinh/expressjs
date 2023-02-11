@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "site": "newdb-01",
+    "public": "public"
+  },
+  "firestore": {
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  }
+}

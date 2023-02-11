@@ -1,0 +1,4 @@
+.env
+firebase.ts
+node_modules/
+.idea/
