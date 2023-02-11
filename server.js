@@ -2,8 +2,7 @@ const express = require('express')
 const app = express();
 const port = process.env.PORT
 const swaggerUi = require('swagger-ui-express');
-const swaggerDocument = require('./swagger.json');
-const swaggerAutogen = require('swagger-autogen');
+const swaggerDocument = require('./swagger/swagger.json');
 
 
 app.get('/', (req, res) => {

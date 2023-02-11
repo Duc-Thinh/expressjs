@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "env-cmd -f .env nodemon server.js",
-    "swagger-autogen": "node ./swagger/swagger.js"
+    "swagger-autogen": "env-cmd -f .env node ./swagger/swagger.js"
   },
   "dependencies": {
     "@types/express": "^4.17.17",
