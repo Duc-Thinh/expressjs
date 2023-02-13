@@ -18,8 +18,7 @@ docRef.get().then(doc => {
   } else {
     console.log(doc.data());
   }
-})
-.catch(err => {
+}).catch(err => {
   console.log('Error getting document', err);
 });
 
